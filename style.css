@@ -1,0 +1,99 @@
+nav { 
+    max-height: 50px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4c92a9;
+    color: rgb(255, 255, 255)
+
+}
+nav ul{ 
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+       
+}
+nav ul li a {
+    font-size: 12px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+body { 
+    background-color: #cfd8dc;
+}
+h1 {
+    color: rgb(57, 125, 149);
+}
+h2{ 
+        color: rgb(57, 125, 149);
+}
+h3{
+    color:rgb(74, 131, 136);
+}
+
+
+#foto_mia {
+    max-width: 40%;
+    height: auto;
+
+}
+
+#encabezado{
+    margin-top: 40px; 
+    display: flex; 
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div#about_me{ 
+    margin-top: 50px;
+    background-color: white;
+    padding: 30px; 
+    border-radius: 30px;
+}
+
+div#about_me *{ 
+    color: black;
+}
+h2#h2proy{ 
+    margin-left: 15px;
+    margin-top: 50px;
+    color:white;
+    background-color: black;
+    max-width: 7rem;
+    padding: 10px;
+    border-radius: 30px;
+
+    /* IMPORTANTE */
+    display: inline-block;
+    transform: skewX(-16deg);
+    transform-origin: bottom left;
+    /* Como no sabia como hacer el efexto lo busque en linea entonces copie como hacerlo ya que no sabia */
+}
+
+
+.proy1, .proy2, .proy3, .proy4 {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;    
+    margin-top: 30px;
+    background-color: #fdfdfd;
+    padding: 15px;
+    border-radius: 30px;
+
+}
+.proy1 p, .proy2 p, .proy3 p, .proy4 p {
+    color: rgb(52, 100, 114);
+}
+.proy1 h2, .proy2 h2, .proy3 h2, .proy4 h2 {
+    color: rgb(31, 80, 96);
+}
+
+
+.image img { 
+    max-width: 80%;
+    height: auto;
+}
